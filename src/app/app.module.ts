@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
-import { DatePipe } from './date.pipe';
+import { CustomDateFormat } from './date.pipe';
 import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
@@ -15,7 +15,7 @@ import { HighlightDirective } from './highlight.directive';
     FooterComponent,
     HomeComponent,
     ProfileComponent,
-    DatePipe,
+    CustomDateFormat,
     HighlightDirective
   ],
   imports: [
